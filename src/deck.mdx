@@ -1,10 +1,13 @@
 import { Head, Notes, Invert, FullScreenCode } from "mdx-deck";
 import { prism } from "mdx-deck/themes";
+import { Flex, Box } from "rebass";
 
 import theme from "./theme";
-import Layout from "./layouts/Layout";
+import Layout from "./components/Layout";
+import TitlePage from "./components/TitlePage";
 
 import bot from "./assets/bot.png";
+import shoot from "./assets/shoot.gif";
 
 export const themes = [theme, prism];
 
@@ -12,15 +15,15 @@ export const themes = [theme, prism];
   <title>Kablammo!</title>
 </Head>
 
-<Layout bg="primary">
+<TitlePage>
 
-# Kablammo!
+  # Kablammo!
 
-<img src={bot} />
+  <img src={shoot} />
 
-Mike &amp; Will
+  Mike &amp; Will
 
-</Layout>
+</TitlePage>
 
 <Notes>Intro to Kablammo</Notes>
 
@@ -44,6 +47,6 @@ Mike &amp; Will
 
 # Building a Robot
 
---- 
+---
 
 # Backlog

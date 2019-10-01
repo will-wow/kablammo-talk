@@ -4,6 +4,8 @@ A talk about [Kablammo](https://github.com/carbonfive/kablammo).
 
 Deck: [kablammo-talk.surge.sh](https://kablammo-talk.surge.sh)
 
+![](./src/assets/shoot.gif)
+
 ## MDX-Deck
 
 Made with [MDX Deck](https://github.com/jxnblk/mdx-deck)
