@@ -1,7 +1,49 @@
+import { Head, Notes, Invert, FullScreenCode } from "mdx-deck";
+import { prism } from "mdx-deck/themes";
+
+import theme from "./theme";
+import Layout from "./layouts/Layout";
+
+import bot from "./assets/bot.png";
+
+export const themes = [theme, prism];
+
+<Head>
+  <title>Kablammo!</title>
+</Head>
+
+<Layout bg="primary">
+
 # Kablammo!
 
-Mike & Will
+<img src={bot} />
 
-![bots](bot.png)
+Mike &amp; Will
+
+</Layout>
+
+<Notes>Intro to Kablammo</Notes>
 
 ---
+
+<Layout bg="secondary">
+
+# History
+
+</Layout>
+
+---
+
+# Back from the dead
+
+---
+
+# Demo
+
+---
+
+# Building a Robot
+
+--- 
+
+# Backlog
