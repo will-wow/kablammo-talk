@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 
-export const Invert = ({ bg, color, ...props }) => (
+export const Layout = ({ bg, color, ...props }) => (
   <div
     {...props}
     sx={{
@@ -20,4 +20,4 @@ export const Invert = ({ bg, color, ...props }) => (
   />
 );
 
-export default Invert;
+export default Layout;

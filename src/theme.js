@@ -35,5 +35,10 @@ export default {
     secondary: "#EF8555",
     black: "#000"
   },
+  styles: {
+    a: {
+      color: "inherit"
+    }
+  },
   Provider
 };
